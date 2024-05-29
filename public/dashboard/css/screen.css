@@ -1,0 +1,68 @@
+#div-comments{ width:100%; text-align:left}
+#div-comments-reply{ width:100%; text-align:right; }
+
+.each-comment{ 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom:4px; padding:5px;
+    border:1px solid #DFDFDF;
+}
+.each-comment-reply{ 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom:4px; padding:5px;
+    border:1px solid #DFDFDF;
+
+}
+img.avatar_img{ float:left; }
+img.avatar_img-reply{ float:right;}
+
+
+.comments_body a{ color:#CC0000; font-weight:bold;}
+.comments_body{ float:left; width:540px; padding:0px 7px 7px 7px; text-align:justify; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333}
+.comments_body b{ color:#CC0000; font-weight:bold;}
+.comment-date{ font-style:italic; color:#666666}
+
+
+.comments_body-reply a{color:#CC0000; font-weight:bold;}
+.comments_body-reply{ float:right; width:540px; padding:0px 7px 7px 7px; text-align:right; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333}
+.comments_body-reply b{ float:right; color:#CC0000; font-weight:bold;}
+.comment-date-reply{  font-style:italic; color:#666666}
+
+img#refresh{
+    float:left;
+    margin-top:30px;
+    margin-left:4px;
+    cursor:pointer;
+}
+img#refresh-reply{
+    float:right;
+    margin-top:30px;
+    margin-left:4px;
+    cursor:pointer;
+}
+#MYFORM {
+    background:#f1f1f1;
+    border:1px solid #DFDFDF;
+    text-align:left;
+    overflow:hidden;
+    padding:20px 15px 20px;
+    width:650px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.error{ color:#CC0000; font-size:12px; margin:4px; font-style:italic; width:200px;}
+
+img#loader{ margin:4px;}
+.success{ color:#009900; height:12px; font-size:12px; margin:4px; font-style:italic; width:200px;}
+#name,#email,#url{float:left;margin-bottom:3px;width:204px; margin-left:8px; height:20px; border:#CCCCCC 1px solid;}
+#message{ width:630px; height:150px;float:left; margin-left:9px;margin-bottom:3px; border:#CCCCCC 1px solid;}
+label{ float:left; color:#666666; width:206px; text-align:left; padding-left:8px; padding-bottom:3px;}
+#Send{ border:#CC0000 solid 1px; float:left; background:#CC0000; margin-left:12px;color:#FFFFFF; padding:5px;}
+
+
+

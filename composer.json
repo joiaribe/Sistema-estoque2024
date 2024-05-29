@@ -1,0 +1,35 @@
+{
+    "name": "panique/php-login",
+    "type": "project",
+    "description": "Sistema Financeiro",
+    "keywords": ["login", "auth", "user", "authentication", "mvc"],
+    "homepage": "https://github.com/panique/php-login",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panique",
+            "homepage": "http://careers.stackoverflow.com/panique",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/panique/php-login/issues",
+        "source": "https://github.com/panique/php-login"
+    },
+    "repositories": [
+ 	{ "type": "vcs", "url": "https://github.com/offboard/php-upload" },
+        { "type": "vcs", "url": "https://github.com/offboard/Make-Nice-Time"},
+	{ "type": "vcs", "url": "https://github.com/offboard/Class-Query"}
+    ], 
+    
+    "require":{
+        "php": ">=5.3.7",
+	"phpmailer/phpmailer": "~5.2.7",
+	"kriansa/openboleto": "dev-master",
+	"offboard/php-upload": "dev-master",
+	"offboard/Class-Query": "dev-master",
+	"offboard/Make-Nice-Time": "dev-master",
+        "ircmaxell/password-compat": "~1.0.3",
+        "raveren/kint": "~1.0@dev"
+    }
+}

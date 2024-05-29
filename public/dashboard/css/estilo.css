@@ -1,0 +1,169 @@
+/*
+html personalizado, que não é do proprio layout
+*/
+
+.allign{
+    line-height: 15px; 
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+/* filter */
+.filter-bar {
+    background-color: #f9f9f9;
+    background-image: -moz-linear-gradient(top, #fdfdfd, #f4f4f4);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdfdfd), to(#f4f4f4));
+    background-image: -webkit-linear-gradient(top, #fdfdfd, #f4f4f4);
+    background-image: -o-linear-gradient(top, #fdfdfd, #f4f4f4);
+    background-image: linear-gradient(to bottom, #fdfdfd, #f4f4f4);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffdfdfd', endColorstr='#fff4f4f4', GradientType=0);
+    box-shadow: 0 1px 0 0 #f7f7f7, 0 5px 4px -4px #d8d8d8;
+    -moz-box-shadow: 0 1px 0 0 #f7f7f7, 0 5px 4px -4px #d8d8d8;
+    -webkit-box-shadow: 0 1px 0 0 #f7f7f7, 0 5px 4px -4px #d8d8d8;
+    border: 1px solid #d8d8d8;
+    line-height: 30px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+.input-mini{
+    line-height: 4px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+}
+.filter-bar.border-top-none {
+    border-top: none;
+}
+.filter-bar div {
+    padding: 5px 0;
+    display: block;
+    line-height: 30px;
+}
+.filter-bar div div {
+    padding: 0;
+    margin: 0;
+}
+.filter-bar div div:not(.helper) {
+    margin: 0 15px 0 0;
+}
+.filter-bar div div input {
+    margin: 3px 0 0;
+}
+.filter-bar div div.input-append {
+    margin: 0;
+}
+.filter-bar div div.input-append .add-on {
+    padding: 1px 3px;
+    margin: 3px 0 0 -1px;
+    background: #fff;
+    color: #d8d9da;
+    border-color: #d8d9da;
+}
+.filter-bar div div.input-append .add-on i:before {
+    top: 4px;
+    left: 4px;
+    font-size: 14px;
+    color: #d0d1d1;
+}
+.filter-bar div div.input-append button.add-on {
+    width: 24px;
+    height: 24px;
+}
+.filter-bar div div:last-child {
+    margin: 0;
+}
+.filter-bar div:not(.helper) {
+    float: left;
+}
+.filter-bar div.glyphicons {
+    padding: 0 0 0 35px;
+}
+.filter-bar div.glyphicons i:before {
+    top: 12px;
+    left: 9px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.filter-bar div.clearfix {
+    padding: 0;
+    clear: both;
+    float: none;
+    display: block;
+    height: 0;
+    margin: 0;
+}
+.filter-bar div.lbl {
+    padding: 0 10px 0 35px;
+    background: #8ec657;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    color: #fff;
+}
+.filter-bar form {
+    margin: 0;
+}
+.filter-bar form input,
+.filter-bar form select {
+    margin: 0 5px 3px 0;
+    padding: 1px 5px;
+    color: #a7a7a7;
+}
+.filter-bar form select {
+    padding: 1px;
+    height: 23px;
+}
+.filter-bar form label {
+    float: left;
+    margin: 0 5px;
+    display: block;
+    line-height: 30px;
+}
+.filter-bar.border-none {
+    border: none;
+}
+.filter-bar.dark {
+    background: #64625f;
+    color: #fff;
+}
+.filter-bar.dark div div.input-append .add-on {
+    background: #42403e;
+    color: #fff;
+    border-color: #42403e;
+}
+.filter-bar.dark div div.input-append .add-on i:before {
+    color: #767473;
+    text-shadow: none;
+}
+.filter-bar.dark form input:focus {
+    border-color: #42403e;
+}
+.filter-bar.dark form input,
+.filter-bar.dark form select {
+    border-color: #42403e;
+}
+
+/* Icones */
+.glyphicons.btn-action {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border-width: 1px;
+    border-style: solid;
+    vertical-align: middle;
+}
+.glyphicons.btn-action i:before {
+    font-size: 14px;
+    top: 5px;
+    left: 5px;
+    text-shadow: 0 1px 0 #fff;
+    color: #fff !important;
+}
+.glyphicons.btn-action.btn-default i:before {
+    color: #7c7c7c !important;
+}
+
